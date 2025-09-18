@@ -12,3 +12,11 @@ SoftUni JS Back End Course Project
  - [x] Render about page
  - [x] Add layout
  - [x] Render 404 page not found
+ ---
+ - [x] Add home controller
+ - [ ] Add movie data layer
+ - [ ] Add movie service
+ - [ ] Render movies on home page dynamically
+ - [ ] Show screen if there are no movies on home page
+ ---
+ - [ ] Add routes
