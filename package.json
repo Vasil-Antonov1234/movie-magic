@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Vasil-Antonov1234/movie-magic#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3"
   }
 }
