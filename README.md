@@ -7,8 +7,8 @@ SoftUni JS Back End Course Project
  - [x] Setup debugging mode
  - [x] Add resources
  - [x] Install and setup Handlebars
- - [ ] Add and setup static folder and files
- - [ ] Render home page
+ - [x] Setup static middleware
+ - [x] Render home page
  - [ ] Add layout
  - [ ] Render about page
  - [ ] Render 404 not found page
