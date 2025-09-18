@@ -9,6 +9,6 @@ SoftUni JS Back End Course Project
  - [x] Install and setup Handlebars
  - [x] Setup static middleware
  - [x] Render home page
- - [ ] Add layout
  - [ ] Render about page
+ - [ ] Add layout
  - [ ] Render 404 not found page
