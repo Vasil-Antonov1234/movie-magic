@@ -16,12 +16,12 @@ app.use(express.static("src/public"));
 
 
 app.get("/", (req, res) => {   
-    res.render("home", { layout: false });
+    res.render("home");
 });
 
 
 app.get("/about", (req, res) => {
-    res.render("about", { layout: false });
+    res.render("about");
 });
 
 

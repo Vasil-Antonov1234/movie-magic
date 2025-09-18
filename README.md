@@ -10,5 +10,5 @@ SoftUni JS Back End Course Project
  - [x] Setup static middleware
  - [x] Render home page
  - [x] Render about page
- - [ ] Add layout
+ - [x] Add layout
  - [ ] Render 404 not found page
