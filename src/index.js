@@ -24,6 +24,10 @@ app.get("/about", (req, res) => {
     res.render("about");
 });
 
+app.all("/*url", (req, res) => {
+    res.render("404");
+});
+
 
 
 app.listen(5000, () => console.log("Server is listening on http://localhost:5000..."));

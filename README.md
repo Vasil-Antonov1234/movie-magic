@@ -11,4 +11,4 @@ SoftUni JS Back End Course Project
  - [x] Render home page
  - [x] Render about page
  - [x] Add layout
- - [ ] Render 404 not found page
+ - [x] Render 404 page not found
