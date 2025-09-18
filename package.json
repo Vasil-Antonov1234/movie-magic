@@ -1,0 +1,22 @@
+{
+  "name": "movie-magic",
+  "version": "1.0.0",
+  "description": "SoftUni JS Back End Course Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vasil-Antonov1234/movie-magic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vasil-Antonov1234/movie-magic/issues"
+  },
+  "homepage": "https://github.com/Vasil-Antonov1234/movie-magic#readme"
+}
