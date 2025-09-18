@@ -5,7 +5,7 @@ SoftUni JS Back End Course Project
  - [x] Initialize project
  - [x] Install Express and add server
  - [x] Setup debugging mode
- - [ ] Add resources
+ - [x] Add resources
  - [ ] Install and setup Handlebars
  - [ ] Add and setup static folder and files
  - [ ] Render home page
