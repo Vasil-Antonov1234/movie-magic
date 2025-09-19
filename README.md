@@ -28,4 +28,5 @@ SoftUni JS Back End Course Project
  - [ ] Create movie
   - [x] Add action
   - [x] Add service
-  - [ ] Add model method for creating movie
+  - [x] Add model method for creating movie
+ - [x] Redirect after creation
