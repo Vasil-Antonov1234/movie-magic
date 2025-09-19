@@ -5,6 +5,10 @@ export default {
         return Movie.find();
     },
     create(movieData) {
+        const movie = new Movie(movieData)
+
         
+        movie.save();
+        return movie;
     }
 }
