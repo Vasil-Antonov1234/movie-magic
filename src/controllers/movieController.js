@@ -5,7 +5,8 @@ const movieController = Router();
 
 
 movieController.get("/movies/create", (req, res) => {
-    res.send("movie create")
+    res.render("create");
+
 })
 
 export default movieController;
