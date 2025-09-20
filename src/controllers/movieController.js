@@ -19,9 +19,9 @@ movieController.post("/create", (req, res) => {
 movieController.get("/:movieId/details", (req, res) => {
     const movieId = req.params.movieId;
     const movie = movieService.getMovieById(movieId);
+    const movieRating = "★".repeat(Math.floor(Number(movie.rating)));
 
-    console.log(movie);
-    res.end();
+    res.render("details", { movie, movieRating });
 })
 
 export default movieController;

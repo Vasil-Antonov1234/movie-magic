@@ -58,8 +58,8 @@ export default class Movie {
     }
 
     static findOne(filter = {}) {
-
         let result = movies[0];
+        
         if (filter._id) {
             result = movies.find((movie) => movie._id === filter._id);
         }
