@@ -43,7 +43,7 @@ SoftUni JS Back End Course Project
  ---
  - [x] Show static serch page
  - [x] Render all movies
- - [ ] Modify search form
+ - [x] Modify search form
  - [ ] Filter movies
  - [ ] Remember search words
 ### Bonuses
