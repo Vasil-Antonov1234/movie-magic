@@ -10,24 +10,24 @@ movieController.get("/create", (req, res) => {
 
 });
 
-movieController.post("/create", (req, res) => {
-    movieService.create(req.body);
+movieController.post("/create", async (req, res) => {
+    await movieService.create(req.body);
 
     res.redirect("/");
 });
 
-movieController.get("/:movieId/details", (req, res) => {
+movieController.get("/:movieId/details", async (req, res) => {
     const movieId = req.params.movieId;
-    const movie = movieService.getMovieById(movieId);
+    const movie = await movieService.getMovieById(movieId);
     const movieRating = "★".repeat(Math.floor(Number(movie.rating)));
 
     res.render("details", { movie, movieRating, pageTitle: "Movie Details" });
 });
 
-movieController.get("/search", (req, res) => {
+movieController.get("/search", async (req, res) => {
     const filter = req.query;
    
-    const movies = movieService.getAll(filter);
+    const movies = await movieService.getAll(filter);
    
 
     res.render("search", { movies, filter, pageTitle: "Search Movies" });
