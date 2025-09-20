@@ -22,6 +22,12 @@ movieController.get("/:movieId/details", (req, res) => {
     const movieRating = "★".repeat(Math.floor(Number(movie.rating)));
 
     res.render("details", { movie, movieRating });
-})
+});
+
+movieController.get("/search", (req, res) => {
+    const movies = movieService.getAll();
+
+    res.render("search", { movies });
+});
 
 export default movieController;
