@@ -48,4 +48,4 @@ SoftUni JS Back End Course Project
  - [x] Remember search words
 ### Bonuses
  - [x] Add dynamic title
- - [ ] File persistance
+ - [x] File persistance
