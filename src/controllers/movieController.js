@@ -6,7 +6,7 @@ const movieController = Router();
 
 
 movieController.get("/create", (req, res) => {
-    res.render("create");
+    res.render("create", { pageTitle: "Movie Create"});
 
 });
 
@@ -21,7 +21,7 @@ movieController.get("/:movieId/details", (req, res) => {
     const movie = movieService.getMovieById(movieId);
     const movieRating = "★".repeat(Math.floor(Number(movie.rating)));
 
-    res.render("details", { movie, movieRating });
+    res.render("details", { movie, movieRating, pageTitle: "Movie Details" });
 });
 
 movieController.get("/search", (req, res) => {
@@ -30,7 +30,7 @@ movieController.get("/search", (req, res) => {
     const movies = movieService.getAll(filter);
    
 
-    res.render("search", { movies, filter });
+    res.render("search", { movies, filter, pageTitle: "Search Movies" });
 });
 
 export default movieController;
