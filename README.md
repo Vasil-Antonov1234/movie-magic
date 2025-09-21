@@ -1,7 +1,7 @@
 # movie-magic
 SoftUni JS Back End Course Project
 
-## Steps
+### Steps
  - [x] Initialize project
  - [x] Install Express and add server
  - [x] Setup debugging mode
@@ -13,7 +13,7 @@ SoftUni JS Back End Course Project
  - [x] Add layout
  - [x] Render 404 page not found
  ---
- ## Architecture and dynamic rendering
+ ### Architecture and dynamic rendering
  - [x] Add home controller
  - [x] Add movie data layer
  - [x] Add movie service
