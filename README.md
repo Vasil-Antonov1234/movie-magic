@@ -40,7 +40,6 @@ SoftUni JS Back End Course Project
  - [x] Render details page with dynamic data
  ---
  ### Search
- ---
  - [x] Show static serch page
  - [x] Render all movies
  - [x] Modify search form
