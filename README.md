@@ -45,6 +45,7 @@ SoftUni JS Back End Course Project
  - [x] Modify search form
  - [x] Filter movies
  - [x] Remember search words
+ ---
 ### Bonuses
  - [x] Add dynamic title
  - [x] File persistance
