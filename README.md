@@ -25,7 +25,7 @@ SoftUni JS Back End Course Project
  - [x] Show create movie page
  - [x] Add routes
  - [x] Add Body Parser
- - [ ] Create movie
+ - [x] Create movie
   - [x] Add action
   - [x] Add service
   - [x] Add model method for creating movie
