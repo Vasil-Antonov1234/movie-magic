@@ -57,7 +57,7 @@ SoftUni JS Back End Course Project
 ### Setup Database
  - [x] Install MongoDB
  - [x] Install Mongoose
- - [ ] Connect to DB
+ - [x] Connect to DB
  
  ### Refactor movies to use Mongoose
  - [ ] Add movie model
@@ -65,3 +65,8 @@ SoftUni JS Back End Course Project
 
 
  - [ ] Add new resources
+
+
+
+ ### Bonuses
+ - [ ] Env variables
