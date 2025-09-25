@@ -1,6 +1,8 @@
 # movie-magic
 SoftUni JS Back End Course Project
 
+## Workshop - Express and Templaring
+
 ### Steps
  - [x] Initialize project
  - [x] Install Express and add server
@@ -49,3 +51,17 @@ SoftUni JS Back End Course Project
 ### Bonuses
  - [x] Add dynamic title
  - [x] File persistance
+
+## Workshop 2 - MongoDB Database
+
+### Setup Database
+ - [ ] Add MongoDB
+ - [ ] Install Mongoose
+ - [ ] Connect to DB
+ 
+ ### Refactor movies to use Mongoose
+ - [ ] Add movie model
+ 
+
+
+ - [ ] Add new resources
