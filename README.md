@@ -64,6 +64,9 @@ SoftUni JS Back End Course Project
   - [x] Create movie schema
   - [x] Create movie model
  - [x] Import file movies to DB
+ - [X] Fix own propperty handlebars problem with lean method
+ - [ ] General fix for own property problem
+
 
  
 

@@ -1,8 +1,8 @@
 import Movie from "../models/Movie.js"
 
 export default {
-    getAll(filter) {
-        return Movie.find(filter);
+    async getAll(filter) {
+        return await Movie.find(filter).lean();
     },
 
     getMovieById(movieId) {
