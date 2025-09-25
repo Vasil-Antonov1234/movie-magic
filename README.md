@@ -60,7 +60,9 @@ SoftUni JS Back End Course Project
  - [x] Connect to DB
  
  ### Refactor movies to use Mongoose
- - [ ] Add movie model
+ - [x] Add movie model
+  - [x] Create movie schema
+  - [x] Create movie model
  
 
 

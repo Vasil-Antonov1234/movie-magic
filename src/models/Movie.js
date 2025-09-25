@@ -1,60 +1,17 @@
-import { v4 as uuid } from "uuid";
-import fs from "fs/promises";
+import { Schema, model } from "mongoose";
 
-let dbSerialized = await fs.readFile("./src/db.json", { encoding: "utf-8"});
-let db = JSON.parse(dbSerialized);
+const movieSchema = new Schema({
+    title: String,
+    category: String,
+    genre: String,
+    director: String,
+    year: Number,
+    imageURL: String,
+    rating: Number,
+    description: String
+})
 
-export default class Movie {
-    constructor(data) {
-        Object.assign(this, data);
-
-        this._id =uuid();
-    }
-    
-    static find(filter = {}) {
-        let result = db.movies.slice();
-
-        if (filter._id) {
-            result = db.movies.filter((movie) => movie._id === filter._id);
-        }
-
-        if (filter.title) {
-            result = result.filter((movie) => movie.title.toLocaleLowerCase().includes(filter.title.toLocaleLowerCase()));
-        }
-
-        if (filter.genre) {
-            result = result.filter((movie) => movie.genre.toLocaleLowerCase() === filter.genre.toLocaleLowerCase());
-        }
-
-        if (filter.year) {
-            result = result.filter((movie) => movie.year === filter.year);
-        }
-
-        return result;
-    }
-
-    get id() {
-        return this._id;
-    }
-
-    static findOne(filter = {}) {
-        let result = db.movies[0];
-        
-        if (filter._id) {
-            result = db.movies.find((movie) => movie._id === filter._id);
-        }
+const Movie = model("Movie", movieSchema);
 
 
-        return result;
-    }
-
-    async save() {
-        db.movies.push(this);
-
-        const dbSerialized = JSON.stringify(db, null, 2);
-
-        await fs.writeFile("./src/db.json", dbSerialized);
-
-        return this;
-    }
-}
+export default Movie;
