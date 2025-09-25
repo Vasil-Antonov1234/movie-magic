@@ -55,8 +55,8 @@ SoftUni JS Back End Course Project
 ## Workshop 2 - MongoDB Database
 
 ### Setup Database
- - [ ] Add MongoDB
- - [ ] Install Mongoose
+ - [x] Install MongoDB
+ - [x] Install Mongoose
  - [ ] Connect to DB
  
  ### Refactor movies to use Mongoose
