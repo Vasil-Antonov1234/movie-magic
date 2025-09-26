@@ -15,12 +15,13 @@ export default {
     create(movieData) {
         movieData.rating = Number(movieData.rating);
         
-        
-        
-        const movie = new Movie(movieData)
+        // const movie = new Movie(movieData)
+        // movie.save();
+        // return movie;
 
 
-        movie.save();
-        return movie;
+
+        
+        return Movie.create(movieData);
     }
 }
