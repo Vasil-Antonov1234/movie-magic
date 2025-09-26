@@ -1,15 +1,32 @@
 import Movie from "../models/Movie.js"
 
 export default {
-    async getAll(filter) {
+    getAll(filter) {
         // return await Movie.find(filter).lean();
-        const result = await Movie.find(filter);
+        let query = Movie.find();
 
-        return result;
+
+        if (filter.title) {
+            query = query.find({ title: { $regex: filter.title, $options: "i"}});
+        }
+
+        if (filter.genre) {
+            query = query.find({ genre: { $regex: new RegExp(`^${filter.genre}$`), $options: "i" }})
+            // query = query.find({ genre: { $regex: "/${filter.genre}/i" } });
+        }
+
+        if (filter.year) {
+            // result = result.find({ year: filter.year});
+            query = query.where("year").equals(filter.year);
+        }
+
+        return query;
     },
 
     getMovieById(movieId) {
-        return Movie.findOne({_id: movieId});
+        // return Movie.findOne({_id: movieId});
+
+        return Movie.findById(movieId);
     },
 
     create(movieData) {
