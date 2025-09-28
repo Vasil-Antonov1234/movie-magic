@@ -91,6 +91,7 @@ SoftUni JS Back End Course Project
 
 
  ### Bonuses
+ - [ ] Filter casts if they are already attached
  - [ ] Env variables
  - [ ] Name in movie
  - [ ] Add movie views to a folder
