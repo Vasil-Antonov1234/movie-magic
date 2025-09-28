@@ -9,10 +9,10 @@
                         <select id="cast" name="cast">
                         
                         {{#each casts}}
-                            <option value="{{casts.name}}">{{casts.name}}</option>
+                            <option value="{{this.id}}">{{this.name}}</option>
                         {{else}}
                         <div class="no-posts">
-                            <p class="no-offer">There are no cast yet...</p>
+                            <option>There are no cast yet...</option>
                         </div>
                         {{/each}}
                         </select>
