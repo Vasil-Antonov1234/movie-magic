@@ -77,15 +77,18 @@ SoftUni JS Back End Course Project
  - [x] Add cast model
  - [x] Create cast service
  - [x] Create cast functionality
- 
- 
- ### Attach Cast to Movie
 
+ ### Attach Cast to Movie (relation)
+ - [x] Add attach cast button
+ - [ ] Add attach cast page
+ - [ ] Add relation between cast and movie
+ - [ ] Add attach cast functionality
 
- ### Show Cast on Details
+ ### Show Cast on Details (population)
 
 
 
  ### Bonuses
  - [ ] Env variables
  - [ ] Name in movie
+ - [ ] Add movie views to a folder
