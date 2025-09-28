@@ -81,6 +81,7 @@ SoftUni JS Back End Course Project
  ### Attach Cast to Movie (relation)
  - [x] Add attach cast button
  - [ ] Add attach cast page
+ - [ ] Add dynamic data to cast page
  - [ ] Add relation between cast and movie
  - [ ] Add attach cast functionality
 
