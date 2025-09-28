@@ -76,7 +76,7 @@ SoftUni JS Back End Course Project
  - [x] Create cast page
  - [x] Add cast model
  - [x] Create cast service
- - [ ] Create cast functionality
+ - [x] Create cast functionality
  
  
  ### Attach Cast to Movie
