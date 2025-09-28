@@ -1,7 +1,7 @@
 import Movie from "../models/Movie.js"
 
 export default {
-    getAll(filter) {
+    getAll(filter = {}) {
         // return await Movie.find(filter).lean();
         let query = Movie.find();
 
