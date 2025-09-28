@@ -75,7 +75,7 @@ SoftUni JS Back End Course Project
  - [x] Create cast controller
  - [x] Create cast page
  - [x] Add cast model
- - [ ] Create cast service
+ - [x] Create cast service
  - [ ] Create cast functionality
  
  
