@@ -23,7 +23,7 @@ SoftUni JS Back End Course Project
  - [x] Show screen if there are no movies on home page
  ---
  ### Create Movie
- - [x] Add Movie Controller
+ - [x] Add movie controller
  - [x] Show create movie page
  - [x] Add routes
  - [x] Add Body Parser
@@ -72,11 +72,11 @@ SoftUni JS Back End Course Project
 
  ### Add Cast
  - [x] Add new resources
- - [x] Create Cast Controller
- - [x] Create Cast Page
- - [ ] Add Cast Model
- - [ ] Create Cast Service
- - [ ] Create Cast functionality
+ - [x] Create cast controller
+ - [x] Create cast page
+ - [x] Add cast model
+ - [ ] Create cast service
+ - [ ] Create cast functionality
  
  
  ### Attach Cast to Movie
@@ -88,3 +88,4 @@ SoftUni JS Back End Course Project
 
  ### Bonuses
  - [ ] Env variables
+ - [ ] Name in movie
