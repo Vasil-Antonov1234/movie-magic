@@ -83,7 +83,7 @@ SoftUni JS Back End Course Project
  - [x] Add attach cast page
  - [x] Add dynamic data to cast page
  - [x] Show cast list in attach select
- - [ ] Add relation between cast and movie
+ - [x] Add relation between cast and movie
  - [ ] Add attach cast functionality
 
  ### Show Cast (population)
