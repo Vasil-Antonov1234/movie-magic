@@ -30,6 +30,10 @@ export default {
         return Movie.findById(movieId);
     },
 
+    getMovieByIdDetailed(movieId) {
+        return this.getMovieById(movieId).populate("casts");
+    },
+
     create(movieData) {
         movieData.rating = Number(movieData.rating);
         
