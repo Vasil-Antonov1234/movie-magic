@@ -87,7 +87,9 @@ SoftUni JS Back End Course Project
  - [x] Add attach cast functionality
 
  ### Show Cast (population)
- - [x] Get movie casts filtered
+ - [x] Get filtered movie casts
+ - [ ] Show casts on details
+ - [ ] Using poulation
 
 
  ### Bonuses

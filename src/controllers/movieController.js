@@ -23,11 +23,10 @@ movieController.get("/:movieId/details", async (req, res) => {
     const movie = await movieService.getMovieById(movieId);
     const movieCast = await castService.getAll({includes: movie.casts});
 
-    console.log(movieCast);
-
+    
     const movieRating = "★".repeat(Math.floor(Number(movie.rating)));
 
-    res.render("details", { movie, movieRating, pageTitle: "Movie Details" });
+    res.render("details", { movie, movieRating, pageTitle: "Movie Details", casts: movieCast });
 });
 
 movieController.get("/search", async (req, res) => {
