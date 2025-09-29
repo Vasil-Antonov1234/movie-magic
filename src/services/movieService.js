@@ -41,9 +41,13 @@ export default {
     },
 
     async attach(movieId, castId) {
+        // Add relation method #1
         const movie = await Movie.findById(movieId);
         movie.casts.push(castId);
 
         return movie.save();
+
+        // Add relation method #2
+        // return Movie.findByIdAndUpdate(movieId, { $push: { casts: castId } });
     }
 }
