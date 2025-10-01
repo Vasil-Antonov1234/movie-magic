@@ -102,9 +102,15 @@ SoftUni JS Back End Course Project
  - [x] Add User model
  - [x] Add User service
  - [x] Create User in DB
- - [ ] Add password hashing
+ - [x] Add password hashing
 
  ### Login
+ - [ ] Add login page
+ - [ ] Handle login page
+ - [ ] Valodate User
+ - [ ] Valodate password
+ - [ ] Create token
+
 
  
  ### Bonuses
