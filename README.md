@@ -105,11 +105,12 @@ SoftUni JS Back End Course Project
  - [x] Add password hashing
 
  ### Login
- - [ ] Add login page
- - [ ] Handle login page
- - [ ] Valodate User
- - [ ] Valodate password
- - [ ] Create token
+ - [x] Add login page
+ - [x] Handle login page
+  - [x] Validate User
+  - [x] Validate password
+  - [x] Create token
+  - [x] Return token to client
 
 
  
