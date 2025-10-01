@@ -91,6 +91,13 @@ SoftUni JS Back End Course Project
  - [x] Show casts on details
  - [x] Get movie cast using poulation
 
+ ## Workshop 3 - Session and Authentication
+ 
+ ### Registration
+ - [x] Add resources
+ - [ ] A
+
+
 
  ### Bonuses
  - [x] Filter casts if they are already attached
