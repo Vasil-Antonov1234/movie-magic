@@ -26,7 +26,6 @@ movieController.post("/create", isAuth, async (req, res) => {
 movieController.get("/:movieId/details", async (req, res) => {
     const movieId = req.params.movieId;
     const movie = await movieService.getMovieByIdDetailed(movieId);
-    // const movieCast = await castService.getAll({includes: movie.casts});
 
     
     const movieRating = "★".repeat(Math.floor(Number(movie.rating)));
