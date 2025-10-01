@@ -31,9 +31,9 @@ movieController.get("/:movieId/details", async (req, res) => {
     const movie = await movieService.getMovieByIdDetailed(movieId);
     const movieRating = "★".repeat(Math.floor(Number(movie.rating)));
 
-    // const isCreator = 
+    const isCreator = req.user?.id && movie.creator == req.user.id;
 
-    res.render("movies/details", { movie, movieRating, pageTitle: "Movie Details" });
+    res.render("movies/details", { movie, movieRating, isCreator, pageTitle: "Movie Details" });
 });
 
 movieController.get("/search", async (req, res) => {
