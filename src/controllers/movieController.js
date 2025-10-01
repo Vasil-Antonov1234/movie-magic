@@ -13,7 +13,7 @@ movieController.get("/create", isAuth, (req, res) => {
         console.log(req.user.email);
     }
     
-    res.render("create", { pageTitle: "Movie Create"});
+    res.render("movies/create", { pageTitle: "Movie Create"});
 
 });
 
@@ -31,7 +31,7 @@ movieController.get("/:movieId/details", async (req, res) => {
     
     const movieRating = "★".repeat(Math.floor(Number(movie.rating)));
 
-    res.render("details", { movie, movieRating, pageTitle: "Movie Details" });
+    res.render("movies/details", { movie, movieRating, pageTitle: "Movie Details" });
 });
 
 movieController.get("/search", async (req, res) => {

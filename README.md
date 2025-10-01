@@ -118,7 +118,10 @@ SoftUni JS Back End Course Project
 
  ### Edit Movies
 
+ ### Show dynamic buttons on details page
+
  ### Delete Movies
+ - [ ] 
 
  ### Authorization
  - [x] Install cookie-parser
