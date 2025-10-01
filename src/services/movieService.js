@@ -34,14 +34,18 @@ export default {
         return this.getMovieById(movieId).populate("casts");
     },
 
-    create(movieData) {
-        movieData.rating = Number(movieData.rating);
+    create(movieData, userId) {
+        // movieData.rating = Number(movieData.rating);
         
         // const movie = new Movie(movieData)
         // movie.save();
         // return movie;
 
-        return Movie.create(movieData);
+        return Movie.create({
+            ...movieData,
+            rating: Number(movieData.rating),
+            creator: userId
+        });
     },
 
     async attach(movieId, castId) {

@@ -120,6 +120,7 @@ SoftUni JS Back End Course Project
 
  ### Show dynamic buttons on details page
  - [x] Add edit and delete buttons on details page
+ - [ ] Add creator as relation to Movies
  - [ ] Show buttons only for creators
 
  ### Delete Movies
