@@ -113,14 +113,17 @@ SoftUni JS Back End Course Project
   - [x] Return token to client
 
  ### Logout
- - [ ] Add logout action
- - [ ] Clear cookie
+ - [x] Add logout action
+ - [x] Clear cookie
 
  ### Edit Movies
 
  ### Delete Movies
 
  ### Authorization
+ - [x] Install cookie-parser
+ - [ ] Add auth middleware
+ - [ ] Validate user authentikation
 
  ### Dinamic Navigation
 

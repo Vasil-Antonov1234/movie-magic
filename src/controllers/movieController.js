@@ -8,6 +8,10 @@ const movieController = Router();
 
 
 movieController.get("/create", (req, res) => {
+    if (req.isAuthenticated) {
+        console.log(req.user.email);
+    }
+    
     res.render("create", { pageTitle: "Movie Create"});
 
 });
