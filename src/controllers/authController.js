@@ -4,9 +4,9 @@ const authController = Router();
 
 
 
-authController.get("/", (req, res) => {
-    res.send("test");
-})
+authController.get("/register", (req, res) => {
+    res.render("auth/register");
+});
 
 
 export default authController;
