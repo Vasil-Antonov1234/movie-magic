@@ -129,6 +129,7 @@ SoftUni JS Back End Course Project
  ### Edit Movies
  - [x] Add edit page
  - [x] Add dynamic data to edit page
+ - [x] Handle edit movie
 
  ### Authorization
  - [x] Install cookie-parser
