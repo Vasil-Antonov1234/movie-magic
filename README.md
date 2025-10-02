@@ -147,7 +147,7 @@ SoftUni JS Back End Course Project
  - [ ] Invalidate token on logout
  - [ ] Refresh token
  - [ ] Automatic login on register
- - [ ] Edit categories
+ - [x] Edit categories
  - [x] Filter casts if they are already attached
  - [ ] Env variables
  - [ ] Name in movie
