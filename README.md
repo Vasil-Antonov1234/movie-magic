@@ -125,7 +125,7 @@ SoftUni JS Back End Course Project
  - [x] Show buttons only for creators
 
  ### Delete Movies
- - [ ] 
+ - [x] Add delete action
 
  ### Authorization
  - [x] Install cookie-parser
