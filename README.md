@@ -116,8 +116,6 @@ SoftUni JS Back End Course Project
  - [x] Add logout action
  - [x] Clear cookie
 
- ### Edit Movies
-
  ### Show dynamic buttons on details page
  - [x] Add edit and delete buttons on details page
  - [x] Add creator as relation to Movies
@@ -127,6 +125,10 @@ SoftUni JS Back End Course Project
  ### Delete Movies
  - [x] Add delete action
  - [x] Add creator validation
+
+ ### Edit Movies
+ - [x] Add edit page
+ - [x] Add dynamic data to edit page
 
  ### Authorization
  - [x] Install cookie-parser
@@ -143,6 +145,7 @@ SoftUni JS Back End Course Project
  - [ ] Invalidate token on logout
  - [ ] Refresh token
  - [ ] Automatic login on register
+ - [ ] Edit categories
  - [x] Filter casts if they are already attached
  - [ ] Env variables
  - [ ] Name in movie
